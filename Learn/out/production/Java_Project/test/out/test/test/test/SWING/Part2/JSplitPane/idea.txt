@@ -1,0 +1,22 @@
+//
+创建JSplitPane对象
+
+通过如下构造方法可以创建JSplitPane对象
+JSplitPane(int newOrientation, Component newLeftComponent,Component newRightComponent)
+    newOrientation：指定JSplitPane容器的分割方向：
+    	如果值为JSplitPane.VERTICAL_SPLIT,为纵向分割；
+    	如果值为JSplitPane.HORIZONTAL_SPLIT，为横向分割；
+
+    newLeftComponent：左侧或者上侧的组件；
+    newRightComponent：右侧或者下侧的组件；
+
+//
+开启连续布局的支持
+
+setContinuousLayout(boolean newContinuousLayout):
+默认是关闭的，如果设置为true，则打开连续布局的支持，但由于连续布局支持需要不断的重绘组件，所以效率会低一些
+
+//
+设置是否支持 一触即屏的支持
+setOneTouchExpandable(boolean newValue):
+	默认是关闭的，如果设置为true，则打开"一触即展"的支持

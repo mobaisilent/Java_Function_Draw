@@ -1,0 +1,29 @@
+创建一个 Book 对象数组，用于存储图书信息。
+创建一个 JFrame 窗口，并将其标题设置为 "测试JSplitPane"。
+创建一个 JList 列表，并将其初始化为 Book 对象数组。
+创建一个 JLabel 标签，并将其大小设置为 220 x 330。
+创建一个 JTextArea 文本区域，并将其大小设置为 220 x 70。
+为列表添加一个 ListSelectionListener 事件监听器。该监听器在列表选择项发生变化时会被触发。
+创建一个垂直分割面板，并将标签和文本区域添加到分割面板中。
+将分割面板的 "一触即展" 特性打开。
+将分割面板的分隔条大小设置为 10。
+将分割面板根据组件的大小调整最佳布局。
+创建一个水平分割面板，并将垂直分割面板和列表添加到分割面板中。
+将水平分割面板的连续布局特性打开。
+将水平分割面板添加到窗口中。
+设置窗口的关闭操作为退出程序。
+调整窗口的大小，使其适合屏幕。
+显示窗口。
+
+创建JSplitePane的三个参数：
+分隔方式：分隔对象1，分隔对象2
+
+JSplitPane的常见方法：
+setDividerLocation(int location)：设置分割条的位置。
+setDividerSize(int size)：设置分割条的大小。
+setResizeWeight(double weight)：设置分割条的权重。
+setOneTouchExpandable(boolean expandable)：设置分割条是否可以一键展开。
+getDividerLocation()：获取分割条的位置。
+getDividerSize()：获取分割条的大小。
+getResizeWeight()：获取分割条的权重。
+isOneTouchExpandable()：获取分割条是否可以一键展开。
